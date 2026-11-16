@@ -1,36 +1,103 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoàng Gia Tuệ 12A4</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ff4f8b">
+  <meta name="description" content="Trang giới thiệu bản thân của Hoàng Gia Tuệ - học sinh lớp 12A4 Trường THPT Hòn Gai.">
+  <title>Hoàng Gia Tuệ 12A4</title>
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=1">
 </head>
 <body>
-    <h1 align="center"><font color="crimson" face="Verdana">GIỚI THIỆU VỀ BẢN THÂN</font></h1>
-    <h2 align="center"><font color="" face="Tahoma">Trang web này chứa các thông tin thú vị về mình, hãy cùng nhau khám phá nhé!</font></h2>
-    <h2><font color="Teal" face="Tahoma">I. Một số thông tin cơ bản</font><img width="300" align="right" src="tue.png"></h2>
-    <p><font size="4" color="" face="Tahoma">- Mình là Hoàng Gia Tuệ, năm nay 17 tuổi. Mình là một trong 47 thành viên của tập thể 12A4 – THPT Hòn Gai. </font> </p>
-    <p><font size="4" color="" face="Tahoma">- Mình đến từ Thanh Hóa – vùng đất có những con người thân thiện và chất phác. Hiện tại, mình đang sinh sống và học tập tại Quảng Ninh cùng gia đình.</font></p>
-    <h2><font color="Royal Blue" face="Tahoma">II. Sở thích của mình</font></h2>
-    <ul style="list-style-type: disc;">
-        <li><font size="4" color="" face="Tahoma">Xem phim Hàn Quốc và phim hoạt hình</font></li>
-        <li><font size="4" color="" face="Tahoma">Đi mua quần áo, khám phá đồ make-up mới</font></li>
-        <li><font size="4" color="" face="Tahoma">Dành hàng giờ tám chuyện cùng bạn bè.</font></li>
-    </ul>
-    <h2><font color="Brown" face="Tahoma">III. Các trường đại học mơ ước</font></h2>
-    <ol type="1">
-        <li><font size="4" color="" face="Tahoma">Trường Đại học Y Hà Nội (HMU)</font></li>
-        <li><font size="4" color="" face="Tahoma">Trường Đại học Y Dược – ĐHQG Hà Nội (VNU)</font></li>
-    </ol>
-    <p><font size="4" color="" face="Tahoma">- Dưới đây là một video ngắn giới thiệu về Trường Đại học Y Dược – ĐHQG Hà Nội trên nền tảng youtube</font></p>
-    <video width="600" controls>
-            <source src="tue.mp4"
-                    type="video/mp4">
-    </video>
-    <h2><font color="#191970"face="Tahoma">IV.Kết nối với mình</font></h2>
-    <p><img width="100" src="zalo.jpg" width="150"><font size="5" color="#006400" face="Tahoma">: 0836445968</font></p>
-    <a href="https://www.instagram.com/iamgiatue/" target="_blank">
-    <img width="100" src="ig.jpg" width="150">
-</a>
+  <div class="page">
+    <div class="bento">
+
+      <!-- Ảnh -->
+      <div class="tile photo reveal">
+        <div class="polaroid">
+          <img src="tue.png" alt="Ảnh Hoàng Gia Tuệ">
+          <span>Gia Tuệ · 12A4</span>
+        </div>
+      </div>
+
+      <!-- Lời chào -->
+      <header class="tile hello reveal">
+        <span class="tag">Giới thiệu về bản thân</span>
+        <h1><span class="l1">Xin chào, mình là</span> <span class="name">Hoàng Gia Tuệ</span></h1>
+        <p>Trang web này chứa các thông tin thú vị về mình, hãy cùng nhau khám phá nhé!</p>
+      </header>
+
+      <!-- Thống kê -->
+      <div class="stats reveal">
+        <div class="stat"><b>17</b><small>tuổi</small></div>
+        <div class="stat"><b>12A4</b><small>THPT Hòn Gai</small></div>
+        <div class="stat"><b>47</b><small>thành viên lớp</small></div>
+      </div>
+
+      <!-- I. Thông tin -->
+      <section class="tile about reveal">
+        <span class="tag">I · Thông tin cơ bản</span>
+        <h3>Một số thông tin cơ bản</h3>
+        <p>Tuệ 17 tuổi, là một trong 47 thành viên của lớp 12A4, THPT Hòn Gai.</p>
+        <p>Hiện Tuệ sống và học tập tại Quảng Ninh cùng gia đình.</p>
+      </section>
+      <section class="tile route reveal">
+        <span class="tag">Quê hương</span>
+        <div class="route__line">Thanh Hóa <i>➜</i> Quảng Ninh</div>
+        <small>Quê ở Thanh Hóa, sống và học tập tại Quảng Ninh</small>
+      </section>
+
+      <!-- II. Sở thích -->
+      <div class="hobbies-head reveal"><span class="tag">II · Sở thích</span><h3>Những điều mình yêu thích</h3></div>
+      <div class="tile hobby hobby--1 reveal"><div class="emo">🎬</div><p>Xem phim Hàn Quốc và phim hoạt hình</p></div>
+      <div class="tile hobby hobby--2 reveal"><div class="emo">🛍️</div><p>Mua quần áo và khám phá đồ make-up mới</p></div>
+      <div class="tile hobby hobby--3 reveal"><div class="emo">💬</div><p>Tám chuyện với bạn bè hàng giờ</p></div>
+
+      <!-- III. Đại học -->
+      <div class="unis-head reveal"><span class="tag">III · Ước mơ</span><h3>Các trường đại học mơ ước</h3></div>
+      <div class="tile uni reveal">
+        <div class="uni__code">HMU</div>
+        <div><span class="rank">Trường mơ ước số 1</span><b>Trường Đại học Y Hà Nội</b><small>HMU</small></div>
+      </div>
+      <div class="tile uni uni--2 reveal">
+        <div class="uni__code">VNU</div>
+        <div><span class="rank">Trường mơ ước số 2</span><b>Trường Đại học Y Dược – ĐHQG Hà Nội</b><small>VNU</small></div>
+      </div>
+      <div class="tile video reveal">
+        <video controls preload="metadata" src="tue.mp4">Trình duyệt của bạn không hỗ trợ video.</video>
+        <p>Video ngắn giới thiệu về trường VNU</p>
+      </div>
+
+      <!-- IV. Kết nối -->
+      <section class="tile contact reveal">
+        <span class="tag">IV · Kết nối với mình</span>
+        <a href="https://zalo.me/0836445968" target="_blank" rel="noopener">
+          <img src="zalo.jpg" alt="Zalo"><span><b>Zalo</b><small>0836445968</small></span>
+        </a>
+        <a href="https://www.instagram.com/iamgiatue/" target="_blank" rel="noopener">
+          <img src="ig.jpg" alt="Instagram"><span><b>Instagram</b><small>@iamgiatue</small></span>
+        </a>
+      </section>
+
+    </div>
+    <footer>© 2026 Hoàng Gia Tuệ · Cảm ơn bạn đã ghé thăm! 💗</footer>
+  </div>
+
+  <script>
+    (function () {
+      var els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('in'); }); return; }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+        });
+      }, { threshold: 0.1 });
+      els.forEach(function (e) { io.observe(e); });
+    })();
+  </script>
 </body>
 </html>
